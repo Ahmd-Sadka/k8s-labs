@@ -1,0 +1,9 @@
+kind: ResourceQuota
+apiVersion: v1
+metadata:
+  name: nti-resource-quota
+  namespace: nti
+spec:
+  hard:
+    pods: "2"
+    
